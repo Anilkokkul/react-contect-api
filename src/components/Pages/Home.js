@@ -8,7 +8,6 @@ import { useProduct } from "../context/products.context";
 function Home() {
   const { products } = useProduct();
   const { cartProducts, setCartProducts } = useCart();
-  console.log(cartProducts);
 
   useEffect(() => {
     setCartProducts(cartProducts);

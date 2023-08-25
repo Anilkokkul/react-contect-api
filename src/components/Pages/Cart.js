@@ -7,9 +7,6 @@ import { useCart } from "../context/cart.context";
 function Cart() {
   const { cartProducts, setCartProducts } = useCart();
 
-  console.log(cartProducts, "cartproducts");
-
-  console.log(cartProducts !== [] ? "cart is empty" : true);
   const handleQuantity = (value, product) => {
     let price = product.price;
 
