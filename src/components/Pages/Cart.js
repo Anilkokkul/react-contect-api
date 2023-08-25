@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./cart.css";
 import CartCard from "../ProductCard/CartCard";
 
